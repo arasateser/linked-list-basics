@@ -1,4 +1,6 @@
+<div class="text-purple">
 class LinkedList { //singly linked list class
+</div>
     Node head; //head of the list
 
     class Node { //node class
