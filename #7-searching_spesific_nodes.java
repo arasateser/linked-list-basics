@@ -49,7 +49,17 @@ class LinkedList { //singly linked list class
         liste.front(2); //{2,3,1,7}
 
         System.out.println("Created Linked list is: ");
-        liste.printList();
+        liste.printList(); //{2,3,1,7}
+        
+                if (liste.searchNode(liste.head, 3))
+            System.out.println("\nabout 3: I Found It!");
+        else
+            System.out.println("\nabout 3: We have a bad news...");
+
+        if (liste.searchNode(liste.head, 21))
+            System.out.println("\nabout 21: I Found It!");
+        else
+            System.out.println("\nabout 21: We have a bad news...");
 
     }
 }
