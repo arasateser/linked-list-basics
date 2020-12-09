@@ -51,7 +51,7 @@ class LinkedList { //singly linked list class
         System.out.println("Created Linked list is: ");
         liste.printList(); //{2,3,1,7}
         
-                if (liste.searchNode(liste.head, 3))
+        if (liste.searchNode(liste.head, 3))
             System.out.println("\nabout 3: I Found It!");
         else
             System.out.println("\nabout 3: We have a bad news...");
